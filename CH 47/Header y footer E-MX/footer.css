@@ -1,0 +1,89 @@
+.navbar-brand1{
+    font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.nav-item{
+    font-size: 14px;
+}
+.btn{
+    font-size: 11px;
+
+}
+#contenedor2{
+   height: 100px;
+   background: linear-gradient(#73C2FB,#73C2FB,#28A0F6);
+}
+.list{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.ancla{
+    text-decoration: none;
+}
+.lista{
+    margin-bottom: 5px;
+}
+
+@media (max-width: 760px) {
+    .grid-container {
+        flex-direction: column;
+        align-items: center;  /* Alineación centrada en pantallas pequeñas  */
+     }
+
+    .grid-item img {
+        max-width: 100%; /* / Asegura que las imágenes no sobrepasen el contenedor / */
+    }
+}
+
+.footer {
+    background: linear-gradient(#73C2FB,#73C2FB,#28A0F6);
+    padding: 80px 0;
+  }
+
+  .footer-row {
+    display: flex;
+    flex-wrap: nowrap; /* / Mantiene los elementos en una sola fila / */
+    justify-content: space-between;
+  }
+
+  .footer-links ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links h4 {
+    border-bottom: 2px solid #0056b3; /* / Color más oscuro / */
+}
+
+
+.footer-links {
+    flex-basis: 25%; /* / Mantener el 25%, pero añadir padding extra / */
+    padding: 0 20px;
+}
+
+
+
+  .footer-links h4 {
+    font-size: 20px;
+    color: black; /* / Cambié para mayor contraste  */
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #73C2FB ;
+    padding-bottom: 10px;
+    display: inline-block;
+  };
+   /* Estilos responsivos */
+@media (width <= 900px) {
+
+.footer-row{
+    display: flex;
+    flex-direction: column;
+}
+}
